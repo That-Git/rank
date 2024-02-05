@@ -1,0 +1,6 @@
+(include "widgets/date.yuck")
+(include "widgets/time.yuck")
+(defwidget bar []
+    (centerbox :orientation "h" :class "bar"
+        (box :class "left" :halign "start" :hexpand false :vexpand false
+            (time))))

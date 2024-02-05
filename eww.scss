@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "MesloLGS Mono Nerd Font";
+    font-weight: 700;
+    font-size: 14px;
+    color: #e0def4;
+}
+
+
+/* -------------------------------------- Desktop Widget -------------------------------------- */
+
+.desktop {
+    background-color: transparent;
+}
+
+.desktop_clock {
+    padding: 40px 35px;
+}
+
+.desktop_time {
+    font-size: 96px;
+}
+
+.desktop_time_h, .desktop_time_m {
+    color: #eb6f92;
+}
+
+.desktop_time_colon {
+    color: #e0def4;
+}
+
+.desktop_time_p {
+    color: #eb6f92;
+}
+
+.desktop_date_date {
+    margin-left: 10px;
+}
+
+.desktop_date {
+    font-size: 32px;
+    color: #eb6f92;
+}
